@@ -1,29 +1,10 @@
-<!-- If the user skips 2.0 or 2.1, alerts for this update will not be skipped. However if the user skips 2.2, alerts for this 2.2.1 update will be skipped -->
-<item>
-    <title>Version 2.2.1</title>
-    <link>https://myproductwebsite.com</link>
-    <sparkle:version>2.2.1</sparkle:version>
-    <sparkle:minimumAutoupdateVersion>2.0</sparkle:minimumAutoupdateVersion>
-    <sparkle:ignoreSkippedUpgradesBelowVersion>2.2</sparkle:ignoreSkippedUpgradesBelowVersion>
-</item>
-<!-- If the user skipped 2.0 or 2.1, alerts for 2.2 will not be skipped due to sparkle:ignoreSkippedUpgradesBelowVersion requirement -->
-<item>
-    <title>Version 2.2</title>
-    <link>https://myproductwebsite.com</link>
-    <sparkle:version>2.2</sparkle:version>
-    <sparkle:minimumAutoupdateVersion>2.0</sparkle:minimumAutoupdateVersion>
-    <sparkle:ignoreSkippedUpgradesBelowVersion>2.2</sparkle:ignoreSkippedUpgradesBelowVersion>
-</item>
-<item>
-    <title>Version 2.1</title>
-    <link>https://myproductwebsite.com</link>
-    <sparkle:version>2.1</sparkle:version>
-    <sparkle:minimumAutoupdateVersion>2.0</sparkle:minimumAutoupdateVersion>
-</item>
-<!-- Skipping this upgrade will also skip alerts for 2.1 above because it has the same sparkle:minimumAutoupdateVersion -->
-<item>
-    <title>Version 2.0</title>
-    <link>https://myproductwebsite.com</link>
-    <sparkle:version>2.0</sparkle:version>
-    <sparkle:minimumAutoupdateVersion>2.0</sparkle:minimumAutoupdateVersion>
-</item>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <item>
+        <title>Version 1.0.0+3</title>
+        <sparkle:version>1.0.0+3</sparkle:version>
+        <sparkle:maximumSystemVersion>1.0.0</sparkle:maximumSystemVersion>
+    </item>
+  </channel>
+</rss>
